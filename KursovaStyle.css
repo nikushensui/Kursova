@@ -1,3 +1,71 @@
-p{
-	color: red;
+body{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.5)),
+	 url(MarvelBackgroundImage.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial;
+}
+header{
+	height: 25%;
+	width: 130%;
+	margin-left: -5%;
+	margin-top: -5%;
+	padding: 0;
+	background-image: url(DirtyBackgroundImage.png);
+     background-size: cover;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	align-content: center;
+}
+h1{
+   background:white;
+   background:linear-gradient(to left,#5d5d5d,#ddd);
+   -webkit-background-clip:text;
+   -webkit-text-fill-color:transparent;
+	font-family: Arial;
+	margin-left: 135px;
+	padding-top: 60px;
+	font-size: 38px;
+	animation: h1 1.5s infinite;
+}
+div{
+	padding-top: 75px;
+	margin-left: -1000px;
+}
+input{
+	margin-left: 1200px;
+	margin-top: -65px;
+	width: 300px;
+	height: 50px;
+	opacity: 0.5;
+	font-size: 16px;
+}
+.text-glow-effect h1 {
+    font-size: 36px; 
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    margin: 0; 
+    background-image: linear-gradient(
+        to right,
+        #333 0%,
+        #000 50%, 
+        #333 100%
+    );
+    background-size: 200% 100%; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-sweep-animation 3s infinite linear;
+}
+
+@keyframes text-sweep-animation {
+    0% {
+        background-position: 100% 0; 
+    }
+    100% {
+        background-position: -100% 0; 
+    }
 }

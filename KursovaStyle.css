@@ -208,7 +208,7 @@ h2{
 	opacity: 1;
 	transition: opacity 0.2s ease-in-out;
 	text-shadow: 5px 5px 10px rgba(0,0,0,0.2);
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: 700;	
 }
 h3{
@@ -228,3 +228,4 @@ hr{
 p{
 	padding-top: 10px;
 }
+

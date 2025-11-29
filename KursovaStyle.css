@@ -110,10 +110,6 @@ img{
 }
 .article-hover:hover{
 	flex-grow: 2;
-	background-image: 
-	 linear-gradient(rgba(0,0,0,0.5), 
-	 rgba(0,0,0,0.8)),
-	 url(ThorRagnarok2.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 75% 0%;
@@ -212,7 +208,7 @@ h2{
 	font-weight: 700;	
 }
 h3{
-	font-size: 20px;
+	font-size: 18px;
 	transition: opacity 1s ease-in-out;
 }
 hr{
@@ -229,3 +225,159 @@ p{
 	padding-top: 10px;
 }
 
+.article1:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(ThorRagnarok2.webp);	
+}
+
+.article2:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Avengers_backgroundphoto.jpg);	
+}
+
+.article3:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(DeadpoolAndWolverine_BackgroundPhoto.jpg);	
+	 background-position: 55% 0%;
+}
+
+.article4:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(BlackPanther_BackgroundPhoto.webp);	
+}
+
+.article5:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmericaAndTheWinterSoldier.jpg);	
+}
+
+.article6:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(AntMan_backgroundPhoto.jpg);	
+}
+
+.article7:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(FantasticFour2_BackgroundPhoto.jpg);	
+}
+
+.article8:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(IronMan_BackgroundPhoto.webp);	
+}
+
+.article9:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Hulk_BackgroundPhoto.jpg);	
+	 background-position: 45% 0%;
+}
+
+.article10:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(GuardiansOfTheGalaxy_BackgroundPhoto.jpg);	
+}
+
+.article11:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(SpiderManNoWayHome_BackgroundPhoto.webp);	
+}
+
+.article12:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmericaTheCivilWar_BackgroundPhoto.webp);	
+}
+
+.article13:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Thor1_BackgroundPhoto.avif);	
+	 background-position: 35% 0%;
+}
+
+.article14:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Thunderbolts_background-photo.webp);	
+}
+
+.article15:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(DoctorStrange_BackgroundPhoto.jpg);	
+}
+
+.article16:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Avengers2_BackgroundPhoto.webp);	
+}
+
+.article17:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(SpiderManHomecoming_BackgroundPhoto.jpg);	
+}
+
+.article18:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmerica1_BackgroundPhoto.webp);	
+}
+
+.article19:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(AntManAndTheWasp_BackgroundPhoto.webp);	
+}
+
+.article20:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(GuardiansOfTheGalaxy2_BackgroundPhoto.webp);	
+}
+footer{
+	width: 80%;
+	height: 5px;
+	background-color: white;
+	margin-left: 150px;
+}
+.h2_2{
+	font-size: 20px;
+	color: white;
+	transition: font-size 0.3s ease;
+}
+.h2_2:hover{
+	font-size: 24px;
+}

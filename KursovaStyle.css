@@ -1,0 +1,383 @@
+body{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.5)),
+	 url(MarvelBackgroundImage.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial;
+}
+header{
+	height: 25%;
+	width: 101.1%;
+	margin-left: -0.6%;
+	margin-top: -5%;
+	padding: 0;
+	background-image: url(DirtyBackgroundImage.png);
+     background-size: cover;
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	align-content: center;
+	position: fixed;
+	z-index: 999;
+}
+h1{
+   background: white;
+   background: linear-gradient(to left,#5d5d5d,#ddd);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	font-family: Arial;
+	margin-left: 135px;
+	padding-top: 60px;
+	font-size: 38px;
+	animation: h1 1.5s infinite;
+}
+.text-glow-effect{
+	padding-top: 65px;
+	margin-left: -900px;
+}
+input{
+	margin-left: 1200px;
+	margin-top: -105px;
+	width: 300px;
+	height: 50px;
+	opacity: 0.5;
+	font-size: 16px;
+}
+.text-glow-effect h1{
+    font-size: 36px; 
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    margin: 0; 
+    background-image: linear-gradient(
+        to right,
+        #919191 0%,
+        #404040 50%, 
+        #919191 100%
+    );
+    background-size: 200% 100%; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-sweep-animation 3s infinite ease-in-out;
+}
+.text-glow-effect p{
+	font-size: 24px; 
+    font-weight: 900;
+    text-align: center;
+    padding: 20px;
+    margin-top: -50px; 
+    background-image: linear-gradient(
+        to right,
+        #919191 0%,
+        #404040 50%, 
+        #919191 100%
+    );
+    background-size: 200% 100%; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text-sweep-animation 3s infinite ease-in-out;
+}
+@keyframes text-sweep-animation {
+    0% {
+        background-position: 100% 0; 
+    }
+    100% {
+        background-position: -100% 0; 
+    }
+}
+.article-hover{
+	background-color: rgba(0,0,0,0.5);
+	height: 350px;
+	width: 200px;
+	margin-left: 10px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
+	transition: flex-grow 0.3s ease-out;
+	border-radius: 5%;	
+	font-weight: 400;
+	color: white;
+}
+img{
+	width: 200px;
+	height: 250px;
+	margin-left: 45px;
+	margin-top: 20px;
+    border-radius: 5%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);	
+}
+.article-hover:hover{
+	flex-grow: 2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 75% 0%;
+}
+.article-hover:hover .form2{
+	opacity: 1;
+}
+.article-hover:hover h2{
+	opacity: 0;
+}
+.article-hover:hover hr{
+	opacity: 1;
+	width: 100%;
+}
+.article-hover:hover .button-link1{
+	opacity: 1;
+}
+.article-hover:hover .button-link2{
+	opacity: 1;
+}
+.article-hover:hover .button-link3{
+	opacity: 1;
+}
+.article-hover:hover h3{
+	opacity: 1;
+}
+.container {
+    margin: 0;
+	padding: 0;
+    display: flex; 
+    width: 100%;
+	height: 360px; 
+    margin: 0;
+	margin-top: 50px;
+}
+main{
+	margin-top: 75px;
+}
+.form2{
+	width: 200px;
+	margin-left: 260px;
+	margin-top: -335px;
+	color: white;
+	opacity: 0;
+	transition: opacity 0.2s ease-in-out;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+.button-link1{
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+    border-radius: 15%;
+	margin-left: 10px;
+	border: 0px;
+	transition: opacity 2s ease-in-out;
+	opacity: 0;
+}
+.button-link2{
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+    border-radius: 15%;
+	margin-left: 10px;
+	border: 0px;
+	transition: opacity 3s ease-in-out;
+	opacity: 0;
+}
+.button-link3{
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+    border-radius: 15%;
+	margin-left: 10px;
+	border: 0px;
+	transition: opacity 4s ease-in-out;
+	opacity: 0;	
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-weight: 700;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+	display: block;
+	text-align: center;
+}
+h2{
+	margin-top: 10px;
+	opacity: 1;
+	transition: opacity 0.2s ease-in-out;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+	font-size: 16px;
+	font-weight: 700;	
+}
+h3{
+	font-size: 18px;
+	transition: opacity 1s ease-in-out;
+}
+hr{
+	width: 10%;
+	height: 2%;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	transition: width 1.5s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.5);
+	border: 0px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.5);
+}
+p{
+	padding-top: 10px;
+}
+
+.article1:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(ThorRagnarok2.webp);	
+}
+
+.article2:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Avengers_backgroundphoto.jpg);	
+}
+
+.article3:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(DeadpoolAndWolverine_BackgroundPhoto.jpg);	
+	 background-position: 55% 0%;
+}
+
+.article4:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(BlackPanther_BackgroundPhoto.webp);	
+}
+
+.article5:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmericaAndTheWinterSoldier.jpg);	
+}
+
+.article6:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(AntMan_backgroundPhoto.jpg);	
+}
+
+.article7:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(FantasticFour2_BackgroundPhoto.jpg);	
+}
+
+.article8:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(IronMan_BackgroundPhoto.webp);	
+}
+
+.article9:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Hulk_BackgroundPhoto.jpg);	
+	 background-position: 45% 0%;
+}
+
+.article10:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(GuardiansOfTheGalaxy_BackgroundPhoto.jpg);	
+}
+
+.article11:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(SpiderManNoWayHome_BackgroundPhoto.webp);	
+}
+
+.article12:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmericaTheCivilWar_BackgroundPhoto.webp);	
+}
+
+.article13:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Thor1_BackgroundPhoto.avif);	
+	 background-position: 35% 0%;
+}
+
+.article14:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Thunderbolts_background-photo.webp);	
+}
+
+.article15:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(DoctorStrange_BackgroundPhoto.jpg);	
+}
+
+.article16:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(Avengers2_BackgroundPhoto.webp);	
+}
+
+.article17:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(SpiderManHomecoming_BackgroundPhoto.jpg);	
+}
+
+.article18:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(CaptainAmerica1_BackgroundPhoto.webp);	
+}
+
+.article19:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(AntManAndTheWasp_BackgroundPhoto.webp);	
+}
+
+.article20:hover{
+	background-image: 
+	 linear-gradient(rgba(0,0,0,0.5), 
+	 rgba(0,0,0,0.8)),
+	 url(GuardiansOfTheGalaxy2_BackgroundPhoto.webp);	
+}
+footer{
+	width: 80%;
+	height: 5px;
+	background-color: white;
+	margin-left: 150px;
+}
+.h2_2{
+	font-size: 20px;
+	color: white;
+	transition: font-size 0.3s ease;
+}
+.h2_2:hover{
+	font-size: 24px;
+}

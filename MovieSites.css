@@ -60,9 +60,6 @@ h1{
         background-position: -100% 0; 
     }
 }
-.div-nav{
-	
-}
 nav{
 	width: 180px;
 	height: 500px;
@@ -180,7 +177,7 @@ h2,.p2,.p3,h4{
 	
 article{
 	width: 86%;
-	height: 1000px;
+	height: 1200px;
 	background-color: white;
 	color: white;
 	display: inline-block;
@@ -189,7 +186,6 @@ article{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	opacity: 0.8;
     align-content: center;	
 	text-align: left;
 }
@@ -215,6 +211,7 @@ img{
     border-radius: 5%;
 	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);	
 	display: block;
+	margin-top: 150px;
 }
 h3{
 	margin-top: -300px;
@@ -299,12 +296,48 @@ footer{
 .button-a3:hover{
 	height: 120px;
 }
-.button-a3:hover form{
-}
 .div4{
 	margin-top: -250px;
 }
 .button-a4{
 	height: 90px;
 	transition: height 0.3s ease-in-out,font-size 0.3s ease-in-out;
+}
+.div5{
+	width: 75%;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.5);
+	gap: 15px;
+	margin-left: 150px;
+	border-radius: 2%;
+	margin-top: 15px;
+	transition: width 0.3s ease-in-out;
+}
+.img2{
+	height: 75%;
+	width: 25%;
+    display: inline-block;	
+	margin-top: 20px;
+	margin-left: 6%;
+	opacity: 1;
+	z-index: 999;
+    border-radius: 1%;
+	transition: width 0.3s ease-in-out, height 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.div-nav:hover .div5{
+	width: 65%;
+}
+.div-nav:hover .img2{
+	width: 20%;
+	height: 55%;
+	margin-left: -3%;
+}
+.div-nav:hover .div2{
+	margin-top: -3%;
+}
+.article3{
+	height: 1400px;
+}
+.div7{
+	margin-top: -125px;
 }

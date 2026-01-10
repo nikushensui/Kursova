@@ -199,6 +199,12 @@ a{
 	display: block;
 	text-align: center;
 }
+a:hover{
+	border: 3px solid white;
+}
+a:hover p{
+	margin-top: -1px;
+}
 h2{
 	margin-top: 10px;
 	opacity: 1;
@@ -243,7 +249,7 @@ p{
 	background-image: 
 	 linear-gradient(rgba(0,0,0,0.5), 
 	 rgba(0,0,0,0.8)),
-	 url(DeadpoolAndWolverine_BackgroundPhoto.jpg);	
+	 url(https://www.foundry.com/sites/default/files/inline-images/Deadpool%20%26%20Wolverine%20Image%207%20-%201440x810.jpg);	
 	 background-position: 55% 0%;
 }
 
@@ -258,7 +264,7 @@ p{
 	background-image: 
 	 linear-gradient(rgba(0,0,0,0.5), 
 	 rgba(0,0,0,0.8)),
-	 url(CaptainAmericaAndTheWinterSoldier.jpg);	
+	 url(https://images.tntdrama.com/tnt/$dyna_params/https%3A%2F%2Fi.cdn.tntdrama.com%2Fassets%2Fimages%2F2019%2F08%2FCaptain-America-Winter-Soldier-1600x900.jpg);	
 }
 
 .article6:hover{
@@ -272,7 +278,7 @@ p{
 	background-image: 
 	 linear-gradient(rgba(0,0,0,0.5), 
 	 rgba(0,0,0,0.8)),
-	 url(FantasticFour2_BackgroundPhoto.jpg);	
+	 url(https://i.pinimg.com/736x/01/ab/c0/01abc06d9527be8bdc5f7455cbfbf41b.jpg);	
 }
 
 .article8:hover{
